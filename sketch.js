@@ -21,7 +21,7 @@ finishLine = loadImage("Finish Line.png");
 }
 
 function setup() {
-  createCanvas(800,1000);
+  createCanvas(displayWidth-20, displaHeight-30);
 
   engine = Engine.create();
   world = engine.world;
