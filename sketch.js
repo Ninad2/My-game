@@ -62,7 +62,7 @@ function draw() {
   ground.display();
 
   if(keyDown("SPACE")){
-    kite2.velocityY = random(-4,5);
+    kite2.velocityY = random(-4,-5);
   }
 
   if(keyDown("UP_ARROW")){
